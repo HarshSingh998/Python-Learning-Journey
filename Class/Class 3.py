@@ -1,22 +1,22 @@
 
 # Input , Output And Operations ->
 
-# name = "Harsh"
-# age = "18"
-# print(f"Hi My Name Is {name} And My Age Is {age}")
-# print("Hi My Name Is",name,"And My Age Is",age )
+name = "Harsh"
+age = "18"
+print(f"Hi My Name Is {name} And My Age Is {age}")
+print("Hi My Name Is",name,"And My Age Is",age )
 
 
 
 
 
-# input("What is your age :- ")
+input("What is your age :- ")
 # but ye jo valur milegi isko khi na khi save krna padega to hum variable ka use krte h 
 
 
 
-# age = input("What is your age :- ")
-# print(f"Hello Your age is {age}")
+age = input("What is your age :- ")
+print(f"Hello Your age is {age}")
 
 """ Hmne int ko isliye lagya kyuki wo hmesa string aayega or agr hm aage chl kr add krte h to nhi 
 hoga name ke liye sirf inpuut me hi likhna h but age ke liye hme usko integer me convert krna 
@@ -64,6 +64,7 @@ print(a+b+c+d+50+150)
 
 
 
+
 a = 12
 print(a/2)     # But Ye apna float me ayega
 
@@ -72,6 +73,7 @@ print(a/2)     # But Ye apna float me ayega
 a = 12
 print(int(a/2))
 # ek trika h yhi pr apna type conversion krdo 
+
 
 
 
