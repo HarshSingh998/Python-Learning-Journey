@@ -126,8 +126,8 @@ print(a)
 # print(a)
 # ye nhi hoga error dedga 
 
-# You can convert string if it holds integers 
-# You can convert float values to int
+""" You can convert string if it holds integers 
+You can convert float values to int """
 
 
 
