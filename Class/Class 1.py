@@ -1,5 +1,6 @@
 # For Single Line Comment We Used Hastag (#) 
 #This Line Below is used for printing
+
 print ("Hello NYC Students")
 
 
@@ -13,6 +14,7 @@ I am From Indore """
 
 
 # For Storing We Will Use - Variables 
+
 """ Anything Can become variable but there are some rule that you have to follow and
 bas equal to sign lgna padega """
 
@@ -20,6 +22,9 @@ bas equal to sign lgna padega """
 1name -> can't start with a number
 my name -> no space allowed
 my-name -> no special characters { Not Use -> !@#$%^&*() }  ( except underscore ) """
+
+
+
 
 
 
@@ -35,6 +40,7 @@ print (hellono1)
 
 
 
+
 """ There are three cases of naming conventions -> 
 Camel Case - myVariableName
 Pascal Case - MyVariableName
@@ -45,7 +51,10 @@ Snake Case - my_variable_name """
 
 
 
+
+
 # Data Types -> Numbers ( int , float , complex ) , String & Boolean 
+
 """ int - 0 to infinity and -1 to negative infinity """
 
 """ float - float are the values hich include decimal and fraction 
@@ -63,10 +72,16 @@ For string and it is anything in keyboard ( Name , Number , Special Characters )
 
 
 
+
 # IMP about variables and data types 
 """ variables ka kbhi khud ka data types nhi hota h 
 variable ke ander jo aap value save krte ho unka data types hota h or
 unhi ke data types ko variables capture kr lete h """
+
+
+
+
+
 
 
 
