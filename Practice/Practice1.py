@@ -2,8 +2,8 @@
 
 #String Slicing
 
-a = "Hello how are you"
-how,you,hello
+# a = "Hello how are you"
+# how,you,hello
 
 
 
