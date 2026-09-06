@@ -83,8 +83,6 @@ for i in range(n,(n*10)+1,n):
 
 # 🔢 For Loop ( For Loop with Strings ) -> There are 2 ways of running for loops on string. 
 
- 
-
 
 
 
