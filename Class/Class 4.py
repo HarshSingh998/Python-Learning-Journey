@@ -8,7 +8,7 @@ if True:
 if False:
     print("Hello, How are you")
 
-Isme print hi nhi hoga.
+# Isme print hi nhi hoga.
 
 
 if 12 == 12:
