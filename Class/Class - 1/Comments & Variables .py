@@ -40,10 +40,10 @@ print (hellono1)
 
 
 
-
 """ There are three cases of naming conventions -> 
 Camel Case - myVariableName
 Pascal Case - MyVariableName
 Snake Case - my_variable_name """
 # But Python Prefers - Snake Case
+
 
