@@ -1,5 +1,5 @@
 
-# Class - 6
+# Class - 5
 # For Loop Questions 
 
 """ Question 1 -> Print "Hello World" n times.
