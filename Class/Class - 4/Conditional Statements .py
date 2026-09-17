@@ -133,16 +133,33 @@ Area2 = length2*breadth2
 
 if Area1 > Area2:
     print("Rectangle 1 Has Greater Area")
-
-
+    
 elif Area2 > Area1:
     print("Rectangle 2 Has Greater Area")
-
 
 else:
     print("Both Rectangle Have Same Area")
 
 
+
+
+
+
+
+
+# Age Classifier
+
+age = int(input("Enter Your Age :- "))
+if age >= 0 and age <= 5:
+    print("Infant")
+elif age >= 6 and age <= 12:
+    print("Child")
+elif age >=13 and age <= 20:
+    print("TeenAger")
+elif age >= 21:
+    print("Adult")
+else:
+    print("Invalid")
 
 
 
