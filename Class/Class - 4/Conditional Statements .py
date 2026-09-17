@@ -50,6 +50,10 @@ else:
 
 
 
+
+
+# Mummy Give Money 
+
 rupees = int(input("Give Money :- "))
 
 if rupees == 10:
@@ -66,6 +70,81 @@ elif rupees == 500:
 
 else:
     print("Bhuka rhunga Mai")
+
+
+
+
+
+
+
+
+
+
+# Day Of Week
+
+day = int(input("Please Tell Your Number B/w 1 to 7 :- "))
+
+
+if day == 1:
+    print("Monday")
+
+elif day == 2:
+    print("Tuesday")
+
+elif day == 3:
+    print("Wednesday")
+
+elif day == 4:
+    print("Thursday")
+
+elif day == 5:
+    print("Friday")
+
+elif day == 6:
+    print("Saturday")
+
+elif day == 7:
+    print("Sunday")
+
+else:
+    print("Invalid Number")
+    print("PLease Choose A Number B/w 1 to 7 ")
+
+
+
+
+
+
+
+
+
+
+
+
+# Area Of Rectangle & Compare
+
+length1 = float(input("Enter the length of rectangle 1 :- "))
+breadth1 = float (input("Enter the breadth of rectangle 1 :- "))
+Area1= length1*breadth1
+
+length2 = float(input("Enter the length of rectangle 2 :- "))
+breadth2 = float (input("Enter the breadth of rectangle 2 :- "))
+Area2 = length2*breadth2
+
+if Area1 > Area2:
+    print("Rectangle 1 Has Greater Area")
+
+
+elif Area2 > Area1:
+    print("Rectangle 2 Has Greater Area")
+
+
+else:
+    print("Both Rectangle Have Same Area")
+
+
+
+
 
 
 
