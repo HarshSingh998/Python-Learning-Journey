@@ -169,6 +169,32 @@ else:
 
 
 
+# Electric Consumption
+
+n = int(input("Enter electricity units consumed: "))
+
+if n >= 0 and n <= 100:
+    print("Low consumption")
+
+elif n >= 101 and n <= 250:
+    print("Medium consumption")
+
+elif n >= 251 and n <= 500:
+    print("High consumption")
+
+elif n >= 501:
+    print("Very high consumption")
+
+else:
+    print("Invalid")
+
+
+
+
+
+
+
+
 
 
 # Extra topic -> ( Intro To Your String )
