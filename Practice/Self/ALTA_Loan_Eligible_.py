@@ -28,14 +28,11 @@ if salary >= minimum_salary:
     # If salary is sufficient, check the available income.
     if available_income >= minimum_available_income:
         print("Congratulations! You are eligible for the loan.")
-    else:
-        print("You are not eligible for the loan.")
-        print("Reason: Your available income is too low.")
 
 # This block runs when the salary is below ₹30,000.
-else:
-    print("You are not eligible for the loan.")
-    print("Reason: Your salary is below the minimum requirement.")
+    else:
+        print("You are not eligible for the loan.")
+        print("Reason: Your salary is below the minimum requirement.")
 
 # Display a closing message.
 print("\nThank you for using the Loan Eligibility Checker.")
