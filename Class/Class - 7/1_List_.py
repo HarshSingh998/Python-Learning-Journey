@@ -108,12 +108,15 @@ fruits[1] = "grape"  # mutation — lists allow this!
 lst = [3, 1, 4, 1, 5]
 
 lst.append(9)       # [3,1,4,1,5,9]   — add to end
-lst.insert(0, 0)    # [0,3,1,4,1,5,9] — insert at index
+lst.insert(0, 0)    # [0,3,1,4,1,5,9] — insert at index ( Add Values In The Middle )
 lst.remove(1)       # removes first 1
 lst.pop()            # removes last element
+lst.clear            # all elements are removed
 lst.sort()           # sort ascending
 lst.reverse()        # reverse in place
 len(lst)             # number of items
 
 
+
+# You Can Store Any DataType Inside The List. ( int , string , bool , float , double  etc )
 
