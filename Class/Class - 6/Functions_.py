@@ -89,25 +89,46 @@ palindrome_checker ( 124 )
 """
 Types of Arguments :-
 
-# 1. Positional — order matters
+1. Positional Arguments :-
+Arguments passed in the same order as function parameters are called positional arguments.
+
 def add(a, b):
     return a + b
-add(5, 3)       # → 8
+
+add(5, 3)
 
 
-# 2. Default — works even without passing a value
+
+2. Default Arguments :-
+Arguments with predefined values that are used when no value is passed are called default arguments.
+
 def greet(name="Guest"):
     print(f"Hello {name}")
-greet()            # Hello Guest
-greet("Akarsh")  # Hello Akarsh
+
+greet() 
 
 
-# 3. Keyword — pass in any order
+def add(a, b, c=5):
+    print(a + b + c)
+
+add(10, 20) 
+
+
+
+3. Keyword Arguments :-
+Arguments passed using parameter names are called keyword arguments. Their order does not matter.
+
 def info(name, age):
     print(f"{name} is {age}")
-info(age=25, name="Akarsh")  # order doesn't matter
+
+info(age=25, name="Akarsh")
+
+
+def add(a, b):
+    print(a + b)
+
+add(b=20, a=10)
 
 """
-
 
 
