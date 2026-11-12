@@ -72,3 +72,43 @@ print(days[0])   # Mon
 days[0] = "X"   # ❌ TypeError — tuples are immutable
 
 
+
+
+
+
+
+
+
+# Packing and Unpacking of Tuple
+
+# 1. Packing of Tuple :-
+# Assigning multiple values to a single variable is called tuple packing.
+t = 10, 20, 30
+print(t)  
+
+
+
+# 2. Unpacking of Tuple :-
+# Assigning tuple elements to multiple variables is called tuple unpacking.
+t = (10, 20, 30)
+a, b, c = t
+print(a)  # 10
+print(b)  # 20
+print(c)  # 30
+
+
+
+# *Important :- The number of variables must match the number of tuple elements during normal unpacking.
+
+
+
+
+
+# Exaple - 3
+def students():
+    return "Harsh", 19 , "Harshu@gmail.com"
+info = students()
+print (info)
+
+name, age, mail = info
+print(name)
