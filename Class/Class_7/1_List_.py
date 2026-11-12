@@ -9,9 +9,15 @@ A list is a collection of items stored in a single variable. It is ordered, chan
 Syntax :-
 list_name = [item1, item2, item3, ...]
 
-1. Ordered In Nature , You Can Access Any Elements At Any Point Of Time Using Indexing.
-2. Mutable In Nature , You Can Change The Value Of Any Element At Any Point Of Time.
-3. It Can Store Duplicates. 
+
+
+Properties of List :-
+
+1. Ordered In Nature :- You Can Access Any Element At Any Point Of Time Using Indexing.
+2. Mutable In Nature :- You Can Change The Value Of Any Element At Any Point Of Time.
+3. It Can Store Duplicates.
+4. It Can Store Different Data Types.
+5. It Can Store Any Number Of Elements.
 
 """
 

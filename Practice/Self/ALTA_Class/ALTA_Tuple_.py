@@ -1,6 +1,4 @@
 
-
-
 # 1. WHAT IS A TUPLE?
 # Definition: A tuple stores multiple values in one variable.
 # Tuples are ordered, allow duplicates, and are immutable.
